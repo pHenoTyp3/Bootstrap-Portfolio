@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Responsive Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        background: url(concrete_seamless.png);
+        font-family: monospace;
+    }
+
+    nav {
+        float: right;
+        background-color: transparent;
+    }
+    .col-md-9 {
+        border: 1px solid black;
+    }
+
+    .jumbotron{
+        background-color: transparent;
+    }
+
+    .card {
+        background-color: transparent;
+    }
+
+    img {
+        background-color: transparent;
+    }
+     #fixednav {
+         position: fixed;
+     }
+
+     #border {
+         border: 0px;
+     }
+  
+     @media screen and (max-width: 980px)
+     {
+        .col-md-4 {
+            width: 100%;
+        }
+
+        .jumbotron, .jumbotron-fuild {
+            width: 100%;
+        }
+
+
+        .col-md-9 {
+            border: 0px;
+            display: block;
+            width: 100%;
+        }
+
+        .col-md-8 {
+            width: 100%;
+        }
+
+        .col-md-3
+        {width: 100%;
+        /* margin: 20px;} */
+        
+}
+
+         
+        .blockquote-footer {
+            color:azure;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            /* margin-right:20px; */
+            padding-right: 20px; 
+}
+
+        }
+
+     
+
+        
+      @media screen and (max-width: 768px) {
+        body {
+            background: url(https://www.sketchuptextureclub.com/public/texture_f/62-texture-concrete-clean-wall-seamless.jpg);
+            color:azure;
+            font-family: sans-serif;
+        }          
+
+        
+    nav {
+        float: right;
+        background-color: transparent;
+    }
+    .col-md-9 {
+        border: 1px solid black;
+    }
+
+    .jumbotron{
+        background-color: transparent;
+    }
+
+    .card {
+        background-color: transparent;
+    }
+
+    img {
+        background-color: transparent;
+    }
+     #fixednav {
+         position: fixed;
+     }
+
+     #border {
+         border: 0px;
+     }
+  
+     @media screen and (max-width: 980px)
+     {
+        .col-md-4 {
+            width: 100%;
+        }
+
+        .jumbotron, .jumbotron-fuild {
+            width: 100%;
+        }
+
+
+        .col-md-9 {
+            border: 0px;
+            display: block;
+            width: 100%;
+        }
+
+        .col-md-8 {
+            width: 100%;
+        }
+
+        .col-md-3
+        {width: 100%;}
+
+
+         
+        .blockquote-footer {
+            color:azure;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+
+      }
+
+        @media screen and (max-width: 640px) {
+            .navbar-light {
+                color: white;
+            }
+            .navbar-brand {
+                color: white;
+            }
+
+            .navbar {
+                color: white;
+            }
+          
+          body { background: url(http://sitez.co/wp-content/uploads/2017/09/seamless-dark-concrete-texture-45-concrete-wall-textures-psd-vector-eps-jpg-download.jpg);
+        }
+    }
+
+
+     }
+    
+</style>
+
+<body>
+   <div class="container">
+       <div class="row">
+         <div class="col-md-8">
+             <h2 class="container">Alex</h2>
+         </div>
+        <div class="col-md-4"> 
+         <nav class="navbar navbar-expand-lg navbar-light" id="fixednav">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                   </ul>
+                </div>
+              </nav>
+            </div>
+    
+       </div>
+
+       <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Hai!</h1>
+              <div class="card">
+                <div class="card-header">
+                  Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0" id="border">
+                    <p>Some Men just want to see the world burn.</p>
+                    <footer class="blockquote-footer">Alfred <cite title="Source Title">The Dark Knight</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+
+              <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+            </div>
+          </div>
+
+    <div class="container">
+       <div class="row">
+           <div class="col-md-8">
+                <div class="page-header">
+                    <h3>About me</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img style="width: 150px; height: 150px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2000px-No_image_available.svg.png" alt="">
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-9">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, beatae maiores accusantium possimus quo, facere quis sed, cum voluptatem consequuntur autem sint harum! Laborum officiis quia error, beatae obcaecati ut.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non facere totam quae dicta beatae incidunt atque ipsam ex fugit, ab rerum facilis sint optio quaerat vel! Repellat, aspernatur sunt.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, accusantium! Quaerat dolores consectetur facere veniam odio accusamus fugit alias hic nesciunt cum rem similique soluta optio, temporibus numquam quae dicta?</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-md-4">     
+                    <div class="card" style="width: 18rem;">
+                            <img style="width: 170px; height: 170px;" class="card-img-top" src="https://cdn.iconscout.com/public/images/icon/premium/png-512/emotion-joking-feeling-playful-emot-emoji-3bbf5546520117df-512x512.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Me - In a Nutshell</h5>
+                              <p class="card-text">I was going to put an important message here, but I forgot</p>
+                              <a href="#" class="btn btn-primary">Oh Look a Shiny Button</a>
+                            </div>
+                          </div>
+
+           </div>
+
+
+       </div>
+
+       <div class="row">
+
+
+
+
+       </div>
+
+
+
+
+   </div>
+
+</div>
+
+   <div class="container">
+        <span class="text-muted">
+            copyright
+        </span>
+      </div>
+</body>
+</html>
